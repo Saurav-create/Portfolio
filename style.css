@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+
+                                                    /* header part */
+
+#header-container{
+    
+
+}
+#header-container{
+  
+    background-image: url('/img/header\ img.jpg')!important;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+    
+}
+.display-4{
+    font-weight: 300;
+}
+.lead{
+    color:yellow;
+    font-weight: bold;
+}
+
+
+
+@media  screen and (max-width:680px ) {
+    #head-grid{
+        display: none;
+    }
+}
+
+
+
+
+                                                  /* Round-image */
+
+@media screen and (min-width: 680px ) {
+    #round-img{
+
+        border: 2px solid yellow;
+        border-radius: 130px;
+    }
+}
+ 
+
+
+@media screen and (max-width: 680px ) {
+    #round-img{
+
+       display: none;
+    }
+}
+
+
+@media  screen and (min-width:680px ) {
+    #big-img{
+        display: none;
+        
+    }
+}
+
+
+@media  screen and (max-width:680px ) {
+    #mbl-size-img{
+        
+        margin-top: 100px;
+        border: 5px solid yellow;
+        border-radius: 250px;
+        
+        
+    }
+}
+
+
+                                                       /* jumbotron */
+
+@media screen and (max-width: 680px){
+
+    #jumbo{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 680px) {
+    .jumbotron {
+        padding: 1em;
+        margin-left: 50px;
+        margin-right: 1em;
+        border-radius: 1em;
+   
+    }
+  }
+  .my-4{
+      color: blanchedalmond !important;
+  }
+   
+
+  .small-jumbo{
+    font-family: 'Dancing Script', cursive;
+
+  }
+  #small-jumbo-name{
+    font-family: 'Noticia Text', serif;
+    font-weight: lighter;
+    border-radius: 10px;
+    
+  }
+
+                                                      /* navbar */ 
+
+
+.navbar-bg-color{
+    background-color: blueviolet !important;
+}
+
+.navbar{
+    
+    position: sticky;
+    
+}
+
+
+                                                     /* about part */
+
+
+
+                                        
+ .about{
+    font-family: 'Noticia Text', serif;
+ }
+
+
+#about-head-card-head{
+    width: 100%;
+    border: 3px solid yellow;
+    border-radius: 10px;
+}
+
+
+ #saurav-bg-violetid{
+
+    border: 0.2em solid yellow;
+    border-radius: 250px;
+ }
+
+
+
+                                                   /* Card-section */
+
+
+#card{
+    color: #555555!important;
+}                                                   
+
+
+
+                                                   /* Education-part */
+#education{
+    margin-top: 30px!important;
+    margin-bottom: 20px!important;
+}
+
+
+
+#education-table{
+     margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
