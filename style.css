@@ -170,3 +170,26 @@ body{
     border-radius: 5px;
 
 }
+
+
+
+
+
+
+
+                                                          /* Achievements */
+ 
+  
+                                                          
+
+
+
+@media screen and (min-width: 680px) {
+    
+    #hr-between-certificates{
+
+        display: none;
+
+    }
+
+}                                                          
