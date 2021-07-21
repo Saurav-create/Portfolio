@@ -200,3 +200,23 @@ body{
     }
 
 }                                                          
+
+
+
+                                                  /* Skills and Experiences */
+ 
+                                                  
+
+
+
+.experience-btn:hover{
+             
+           border: 2px solid cyan!important;
+           border-radius: 5px!important;
+           color: yellow!important;
+}                                                  
+
+#skill-border{
+    border: 2px solid white;
+    border-radius: 5px;
+}
