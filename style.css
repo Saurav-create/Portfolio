@@ -116,9 +116,18 @@ body{
 }
 
 .navbar{
+    top: 0;
+    position:sticky;
+    z-index: +2;
     
-    position: sticky;
-    
+}
+
+.nav-link:hover{
+    background-color: transparent!important;
+    color: yellow!important;
+    border: 3px solid cyan;
+    border-radius: 5px;
+
 }
 
 
@@ -178,6 +187,14 @@ body{
 
 }
 
+#education-table:hover{
+    margin-top: 30px;
+   border: 2px solid cyan;
+   border-radius: 5px;
+   padding: 2px solid cyan;
+
+}
+
 
 
 
@@ -218,5 +235,10 @@ body{
 
 #skill-border{
     border: 2px solid white;
+    border-radius: 5px;
+}
+
+#skill-border:hover{
+    border: 2px solid cyan;
     border-radius: 5px;
 }
